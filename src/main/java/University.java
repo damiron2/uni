@@ -15,12 +15,12 @@ public class University {
 
     @Override
     public String toString() {
-        return "University{" +
+        return "Университет{" +
                 "id='" + id + '\'' +
-                ", fullName='" + fullName + '\'' +
-                ", shortName='" + shortName + '\'' +
-                ", yearOfFoundation=" + yearOfFoundation +
-                ", mainProfile=" + mainProfile +
+                ", Название='" + fullName + '\'' +
+                ", Короткое название='" + shortName + '\'' +
+                ", Год основания=" + yearOfFoundation +
+                ", Профиль=" + mainProfile +
                 '}';
     }
 
