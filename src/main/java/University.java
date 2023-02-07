@@ -1,8 +1,15 @@
+import com.google.gson.annotations.SerializedName;
+
 public class University {
+    @SerializedName("ID")
     String id;
+    @SerializedName("Name")
     String fullName;
+    @SerializedName("Short")
     String shortName;
+    @SerializedName("Year")
     int yearOfFoundation;
+    @SerializedName("Profile")
     StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
