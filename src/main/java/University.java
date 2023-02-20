@@ -1,15 +1,29 @@
+
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+
 import com.google.gson.annotations.SerializedName;
 
+import javax.xml.bind.annotation.XmlAccessType;
+
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class University {
     @SerializedName("ID")
+    @XmlElement(name = "UniversityID")
     String id;
     @SerializedName("Name")
+    @XmlElement(name = "FullName")
     String fullName;
     @SerializedName("Short")
+    @XmlElement(name = "ShortName")
     String shortName;
     @SerializedName("Year")
+    @XmlTransient
     int yearOfFoundation;
     @SerializedName("Profile")
+    @XmlTransient
     StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {

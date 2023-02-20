@@ -1,0 +1,115 @@
+2023-02-20 12:36:27 DEBUG Main:10 - Start
+2023-02-20 12:36:29 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 12:36:29 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 12:36:29 DEBUG Main:57 - Finish
+2023-02-20 13:36:52 DEBUG Main:10 - Start
+2023-02-20 13:36:53 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 13:36:54 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 13:36:54 DEBUG Main:57 - Finish
+2023-02-20 14:06:19 DEBUG Main:10 - Start
+2023-02-20 14:06:21 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 14:06:21 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 14:06:21 DEBUG Main:57 - Finish
+2023-02-20 14:17:33 DEBUG Main:12 - Start
+2023-02-20 14:17:34 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 14:17:35 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 14:17:35 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 14:17:35 DEBUG Main:69 - javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+2023-02-20 14:17:35 DEBUG Main:72 - Finish
+2023-02-20 14:30:34 DEBUG Main:12 - Start
+2023-02-20 14:30:35 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 14:30:35 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 14:30:35 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 14:30:35 DEBUG Main:69 - javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+2023-02-20 14:30:35 DEBUG Main:72 - Finish
+2023-02-20 14:32:06 DEBUG Main:12 - Start
+2023-02-20 14:32:07 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 14:32:08 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 14:32:08 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 14:32:08 DEBUG Main:66 - javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+2023-02-20 14:32:08 DEBUG Main:69 - Finish
+2023-02-20 14:35:52 DEBUG Main:12 - Start
+2023-02-20 14:35:53 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 14:35:53 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 14:35:53 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 14:35:53 DEBUG Main:69 - javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+2023-02-20 14:35:53 DEBUG Main:72 - Finish
+2023-02-20 14:40:57 DEBUG Main:12 - Start
+2023-02-20 14:40:58 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 14:40:58 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 14:40:58 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 14:40:58 DEBUG XMLWriter:36 - Конвертация в xml завершена
+2023-02-20 14:40:58 DEBUG Main:72 - Finish
+2023-02-20 20:09:24 DEBUG Main:12 - Start
+2023-02-20 20:09:25 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 20:09:25 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 20:09:25 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 20:09:25 DEBUG XMLWriter:29 - Директория уже есть java.nio.file.FileAlreadyExistsException: xmlReqs
+2023-02-20 20:09:25 DEBUG XMLWriter:36 - Конвертация в xml завершена
+2023-02-20 20:09:25 DEBUG JsonFileWriter:18 - Конвертация в xml стартовала
+2023-02-20 20:09:25 DEBUG JsonFileWriter:21 - Директория создана
+2023-02-20 20:09:25 DEBUG JsonFileWriter:37 - Не удалось записать файл
+2023-02-20 20:09:25 DEBUG Main:73 - Finish
+2023-02-20 20:11:48 DEBUG Main:12 - Start
+2023-02-20 20:11:49 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 20:11:49 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 20:11:49 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 20:11:49 DEBUG XMLWriter:29 - Директория уже есть java.nio.file.FileAlreadyExistsException: xmlReqs
+2023-02-20 20:11:49 DEBUG XMLWriter:36 - Конвертация в xml завершена
+2023-02-20 20:11:49 DEBUG JsonFileWriter:17 - Конвертация в json стартовала
+2023-02-20 20:11:49 DEBUG JsonFileWriter:22 - Директория уже есть java.nio.file.FileAlreadyExistsException: jsonReqs
+2023-02-20 20:11:49 DEBUG JsonFileWriter:36 - Не удалось записать файл
+2023-02-20 20:11:49 DEBUG Main:73 - Finish
+2023-02-20 20:13:20 DEBUG Main:12 - Start
+2023-02-20 20:13:21 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 20:13:22 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 20:13:22 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 20:13:22 DEBUG XMLWriter:29 - Директория уже есть java.nio.file.FileAlreadyExistsException: xmlReqs
+2023-02-20 20:13:22 DEBUG XMLWriter:36 - Конвертация в xml завершена
+2023-02-20 20:13:22 DEBUG JsonFileWriter:17 - Конвертация в json стартовала
+2023-02-20 20:13:22 DEBUG JsonFileWriter:22 - Директория уже есть java.nio.file.FileAlreadyExistsException: jsonReqs
+2023-02-20 20:13:22 DEBUG JsonFileWriter:33 - Студенты записаны в json
+2023-02-20 20:13:22 DEBUG Main:73 - Finish
+2023-02-20 20:21:00 DEBUG Main:12 - Start
+2023-02-20 20:21:01 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 20:21:02 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 20:21:02 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 20:21:02 DEBUG XMLWriter:29 - Директория уже есть java.nio.file.FileAlreadyExistsException: xmlReqs
+2023-02-20 20:21:02 DEBUG XMLWriter:36 - Конвертация в xml завершена
+2023-02-20 20:21:02 DEBUG JsonFileWriter:17 - Конвертация в json стартовала
+2023-02-20 20:21:02 DEBUG JsonFileWriter:22 - Директория уже существует java.nio.file.FileAlreadyExistsException: jsonReqs
+2023-02-20 20:21:02 DEBUG JsonFileWriter:34 - Студенты записаны в json
+2023-02-20 20:21:02 DEBUG JsonFileWriter:47 - Университеты записаны в json
+2023-02-20 20:21:02 DEBUG Main:73 - Finish
+2023-02-20 20:32:14 DEBUG Main:12 - Start
+2023-02-20 20:32:15 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 20:32:15 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 20:32:15 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 20:32:15 DEBUG XMLWriter:29 - Директория уже есть java.nio.file.FileAlreadyExistsException: xmlReqs
+2023-02-20 20:32:15 DEBUG XMLWriter:36 - Конвертация в xml завершена
+2023-02-20 20:32:15 DEBUG JsonFileWriter:17 - Конвертация в json стартовала
+2023-02-20 20:32:15 DEBUG JsonFileWriter:22 - Директория уже существует java.nio.file.FileAlreadyExistsException: jsonReqs
+2023-02-20 20:32:15 DEBUG JsonFileWriter:35 - Студенты записаны в json
+2023-02-20 20:32:15 DEBUG JsonFileWriter:48 - Университеты записаны в json
+2023-02-20 20:32:15 DEBUG JsonFileWriter:61 - Статистика записана в json
+2023-02-20 20:32:15 DEBUG Main:51 - Finish
+2023-02-20 20:38:11 DEBUG Main:12 - Start
+2023-02-20 20:38:12 DEBUG FileReader:38 - Файл прочитан C:\Users\Anna\IdeaProjects\uni\src\main\resources\universityInfo.xlsx
+2023-02-20 20:38:12 DEBUG FileWriter:77 - Файл записан C:\Users\Anna\IdeaProjects\uni\src\main\resources\statistics.xlsx
+2023-02-20 20:38:12 DEBUG XMLWriter:21 - Конвертация в xml стартовала
+2023-02-20 20:38:13 DEBUG XMLWriter:29 - Директория уже есть java.nio.file.FileAlreadyExistsException: xmlReqs
+2023-02-20 20:38:13 DEBUG XMLWriter:36 - Конвертация в xml завершена
+2023-02-20 20:38:13 DEBUG JsonFileWriter:17 - Конвертация в json стартовала
+2023-02-20 20:38:13 DEBUG JsonFileWriter:22 - Директория уже существует java.nio.file.FileAlreadyExistsException: jsonReqs
+2023-02-20 20:38:13 DEBUG JsonFileWriter:35 - Студенты записаны в json
+2023-02-20 20:38:13 DEBUG JsonFileWriter:48 - Университеты записаны в json
+2023-02-20 20:38:13 DEBUG JsonFileWriter:61 - Статистика записана в json
+2023-02-20 20:38:13 DEBUG Main:51 - Finish

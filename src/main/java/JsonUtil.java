@@ -27,8 +27,7 @@ public class JsonUtil {
         return new Gson().fromJson(json, University.class);
     }
 
-
-    public static String studentsToJson(List<Student> list){
+     public static String listToJson(List<?> list){
         return new GsonBuilder().setPrettyPrinting().create().toJson(list);
     }
 
@@ -36,9 +35,7 @@ public class JsonUtil {
         return new Gson().fromJson(json,new TypeToken<List<Student>>(){}.getType());
     }
 
-    public static String universitiesToJson(List<University> list){
-        return new GsonBuilder().setPrettyPrinting().create().toJson(list);
-    }
+
 
     public static List<University> jsonToListOfSUniversities(String json){
         return new Gson().fromJson(json, new TypeToken<List<University>>(){}.getType());

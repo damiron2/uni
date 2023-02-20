@@ -1,7 +1,7 @@
+import lombok.extern.log4j.Log4j;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,14 +9,17 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@Log4j
 public class FileReader {
 
     private FileReader(){
 
     };
 
-    public static List<Student> ReadStudentXlsx(File file) throws IOException {
+    public static List<Student> ReadStudentXlsx(File file) {
         List<Student> studentsList = new ArrayList<>();
+
+        try{
         XSSFWorkbook myBook = new XSSFWorkbook(new FileInputStream(file));
         XSSFSheet myStudentsSheet = myBook.getSheet("Студенты");
 
@@ -32,29 +35,42 @@ public class FileReader {
             student.setAvgExamScore((float)curRow.getCell(3).getNumericCellValue());
         }
         myBook.close();
+        log.debug("XLS Файл прочитан"+" "+file);
+        return studentsList;
+        }
+        catch (IOException e){
+            log.debug("Не удается найти указанный файл"+" "+file);
+        }
         return studentsList;
     }
 
-    public static List<University> ReadUniversitiesXlsx(File file) throws IOException {
+    public static List<University> ReadUniversitiesXlsx(File file) {
         List<University> universitiesList = new ArrayList<>();
-        XSSFWorkbook myBook = new XSSFWorkbook(new FileInputStream(file));
-        XSSFSheet myUniversitiesSheet = myBook.getSheet("Университеты");
+        try {
 
-        Iterator<Row> rows = myUniversitiesSheet.iterator();
-        rows.next();
+            XSSFWorkbook myBook = new XSSFWorkbook(new FileInputStream(file));
+            XSSFSheet myUniversitiesSheet = myBook.getSheet("Университеты");
 
-        while (rows.hasNext()){
-            Row curRow = rows.next();
-            University university = new University();
-            universitiesList.add(university);
-            university.setId(curRow.getCell(0).getStringCellValue());
-            university.setFullName(curRow.getCell(1).getStringCellValue());
-            university.setShortName(curRow.getCell(2).getStringCellValue());
-            university.setYearOfFoundation((int)curRow.getCell(3).getNumericCellValue());
-            university.setMainProfile(StudyProfile.valueOf(curRow.getCell(4).getStringCellValue()));
+            Iterator<Row> rows = myUniversitiesSheet.iterator();
+            rows.next();
+
+            while (rows.hasNext()) {
+                Row curRow = rows.next();
+                University university = new University();
+                universitiesList.add(university);
+                university.setId(curRow.getCell(0).getStringCellValue());
+                university.setFullName(curRow.getCell(1).getStringCellValue());
+                university.setShortName(curRow.getCell(2).getStringCellValue());
+                university.setYearOfFoundation((int) curRow.getCell(3).getNumericCellValue());
+                university.setMainProfile(StudyProfile.valueOf(curRow.getCell(4).getStringCellValue()));
+            }
+
+            myBook.close();
+            return universitiesList;
         }
-
-        myBook.close();
+        catch (IOException e){
+        log.debug("Не удается найти указанный файл"+" "+file);
+        }
         return universitiesList;
     }
 

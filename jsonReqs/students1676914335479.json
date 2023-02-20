@@ -1,0 +1,68 @@
+[
+  {
+    "Name": "Сидоров Е. Г.",
+    "UID": "0004-high",
+    "Course": 2,
+    "Average": 3.9
+  },
+  {
+    "Name": "Иванов И. А.",
+    "UID": "0002-high",
+    "Course": 2,
+    "Average": 4.0
+  },
+  {
+    "Name": "Витальев В. А.",
+    "UID": "0001-high",
+    "Course": 2,
+    "Average": 4.0
+  },
+  {
+    "Name": "Фёдоров А. И.",
+    "UID": "0002-high",
+    "Course": 3,
+    "Average": 4.2
+  },
+  {
+    "Name": "Игнатьев М. М.",
+    "UID": "0003-high",
+    "Course": 4,
+    "Average": 4.3
+  },
+  {
+    "Name": "Козлов М. В.",
+    "UID": "0002-high",
+    "Course": 2,
+    "Average": 4.6
+  },
+  {
+    "Name": "Васильев В. П.",
+    "UID": "0001-high",
+    "Course": 4,
+    "Average": 4.7
+  },
+  {
+    "Name": "Соколов В. В.",
+    "UID": "0004-high",
+    "Course": 1,
+    "Average": 4.8
+  },
+  {
+    "Name": "Иванов А. Г.",
+    "UID": "0001-high",
+    "Course": 3,
+    "Average": 4.8
+  },
+  {
+    "Name": "Петров П. А.",
+    "UID": "0001-high",
+    "Course": 1,
+    "Average": 5.0
+  },
+  {
+    "Name": "Алексеев С. В.",
+    "UID": "0001-high",
+    "Course": 1,
+    "Average": 5.0
+  }
+]

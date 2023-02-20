@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <StudentsInfo>
+        <studentEntry>
+            <Name>Сидоров Е. Г.</Name>
+            <UniversityID>0004-high</UniversityID>
+            <AverageExamScore>3.9</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Иванов И. А.</Name>
+            <UniversityID>0002-high</UniversityID>
+            <AverageExamScore>4.0</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Витальев В. А.</Name>
+            <UniversityID>0001-high</UniversityID>
+            <AverageExamScore>4.0</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Фёдоров А. И.</Name>
+            <UniversityID>0002-high</UniversityID>
+            <AverageExamScore>4.2</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Игнатьев М. М.</Name>
+            <UniversityID>0003-high</UniversityID>
+            <AverageExamScore>4.3</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Козлов М. В.</Name>
+            <UniversityID>0002-high</UniversityID>
+            <AverageExamScore>4.6</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Васильев В. П.</Name>
+            <UniversityID>0001-high</UniversityID>
+            <AverageExamScore>4.7</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Соколов В. В.</Name>
+            <UniversityID>0004-high</UniversityID>
+            <AverageExamScore>4.8</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Иванов А. Г.</Name>
+            <UniversityID>0001-high</UniversityID>
+            <AverageExamScore>4.8</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Петров П. А.</Name>
+            <UniversityID>0001-high</UniversityID>
+            <AverageExamScore>5.0</AverageExamScore>
+        </studentEntry>
+        <studentEntry>
+            <Name>Алексеев С. В.</Name>
+            <UniversityID>0001-high</UniversityID>
+            <AverageExamScore>5.0</AverageExamScore>
+        </studentEntry>
+    </StudentsInfo>
+    <UniversitiesInfo>
+        <universityEntry>
+            <UniversityID>0001-high</UniversityID>
+            <FullName>Московский Выдуманный Университет</FullName>
+            <ShortName>МВУ</ShortName>
+        </universityEntry>
+        <universityEntry>
+            <UniversityID>0002-high</UniversityID>
+            <FullName>Московский Придуманный Институт</FullName>
+            <ShortName>МПИ</ShortName>
+        </universityEntry>
+        <universityEntry>
+            <UniversityID>0003-high</UniversityID>
+            <FullName>Московский Государственный Медицинский Университет</FullName>
+            <ShortName>МГМУ</ShortName>
+        </universityEntry>
+        <universityEntry>
+            <UniversityID>0004-high</UniversityID>
+            <FullName>Тамбовский Университет Медицины</FullName>
+            <ShortName>ТУМ</ShortName>
+        </universityEntry>
+        <universityEntry>
+            <UniversityID>0005-high</UniversityID>
+            <FullName>Самарский Медицинский Институт</FullName>
+            <ShortName>СМИ</ShortName>
+        </universityEntry>
+        <universityEntry>
+            <UniversityID>0006-high</UniversityID>
+            <FullName>Воронежский Литературно-Переводческий Университет</FullName>
+            <ShortName>ВЛПУ</ShortName>
+        </universityEntry>
+        <universityEntry>
+            <UniversityID>0007-high</UniversityID>
+            <FullName>Казанский Университет Вычислений</FullName>
+            <ShortName>КУВ</ShortName>
+        </universityEntry>
+    </UniversitiesInfo>
+    <StatisticsInfo>
+        <statisticsEntry>
+            <UniversityProfile>MEDICINE</UniversityProfile>
+            <AverageExamScore>4.33</AverageExamScore>
+        </statisticsEntry>
+        <statisticsEntry>
+            <UniversityProfile>PHYSICS</UniversityProfile>
+            <AverageExamScore>4.54</AverageExamScore>
+        </statisticsEntry>
+        <statisticsEntry>
+            <UniversityProfile>LINGUISTICS</UniversityProfile>
+            <AverageExamScore>0.0</AverageExamScore>
+        </statisticsEntry>
+        <statisticsEntry>
+            <UniversityProfile>MATHEMATICS</UniversityProfile>
+            <AverageExamScore>0.0</AverageExamScore>
+        </statisticsEntry>
+    </StatisticsInfo>
+    <processedAt>2023-02-20T20:38:12.920+03:00</processedAt>
+</root>

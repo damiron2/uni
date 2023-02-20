@@ -1,10 +1,23 @@
+import com.google.gson.annotations.SerializedName;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Statistics {
-
+    @SerializedName("UniversityProfile")
+    @XmlElement(name = "UniversityProfile")
     private StudyProfile studyProfile;
+    @SerializedName("AverageExamScore")
+    @XmlElement(name = "AverageExamScore")
     private float avgExamScore;
+    @XmlTransient
     private int studentsCountByProfile;
+    @XmlTransient
     private int uniCountByProfile;
+    @XmlTransient
     private String uniNames;
 
 
